@@ -1,0 +1,48 @@
+*{
+  border: solid 1px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: solid 1px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  color: MediumAquamarine;
+}
+
+.nav{
+  display: flex;
+  width: 250px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column.large{
+  width: 630px;
+}
+
+.column.medium{
+  width: 300px;
+}
+
+.column.small{
+  width: 240px;
+}
+
+.column{
+  display: flex;
+  width: 1000px;
+  margin: 20px;
+}
+
+
+a{
+  color: black;
+}
