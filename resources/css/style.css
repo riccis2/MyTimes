@@ -24,6 +24,9 @@ header{
   justify-content: space-between;
 }
 
+.container{
+}
+
 .column.large{
   width: 630px;
 }
@@ -38,8 +41,21 @@ header{
 
 .column{
   display: flex;
-  width: 1000px;
+  width: 1260px;
   margin: 20px;
+  flex-shrink: 1;
+}
+
+.large{
+  margin-right: 30px;
+}
+
+.medium{
+  margin-right: 30px;
+}
+
+.small{
+  margin-right: 30px;
 }
 
 
